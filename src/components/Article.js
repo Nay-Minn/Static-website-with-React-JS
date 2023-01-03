@@ -7,8 +7,8 @@ export default function Article(props) {
         <img src={`images/${props.image}`} className="article--image" />
       </left>
       <right>
-        <div>
-          <img src="images/placeholder.png" />
+        <div className="location--container">
+          <img src="images/placeholder.png" className="location--logo" />
           <p>{props.location}</p>
           <a href="#">View on Google Map</a>
         </div>
